@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="6" parallel="methods" name="Test2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.sanil.LearningSelenium.SecondTest">
+        <methods>
+          <include name="GOOGLE7"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sanil.LearningSelenium.SecondTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
